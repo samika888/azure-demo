@@ -15,7 +15,7 @@ jobs:
       LOCATION: southeastasia
       ADMIN: azureuser
       APP_DIR: /var/www/azure-cicd-app
-      SRC: azure-demo-04/azure-ci-cd-pipeline
+      SRC: .
 
     steps:
       - uses: actions/checkout@v4
